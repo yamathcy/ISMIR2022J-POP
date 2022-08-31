@@ -20,7 +20,7 @@ We also present descriptive statistics of singing techniques on the dataset to c
 We further explored the difficulty of the automatic detection of singing techniques using previously proposed machine learning techniques. 
 In the detection, we also investigate the effectiveness of auxiliary information (i.e., pitch and distribution of label duration), not only providing the baseline. 
 The best result achieves 40.4% at macro-average F-measure on nine-way multi-class detection.
-We provide the annotation of the dataset and its detail on the appendix website (this site) https://yamathcy.github.io/ISMIR2022J-POP/ .
+We provide the annotation of the dataset and its detail on the appendix website (this site). https://yamathcy.github.io/ISMIR2022J-POP/ 
 
 
 ### Dataset "COSIAN"
