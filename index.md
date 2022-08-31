@@ -46,6 +46,7 @@ It contains songlist. it contains following information;
 - **Singing techniques**: Overlapping strong labeled annotation (i.e. kinds and timestamps) of singing techniques. 
 
 - **Pitch (not publicly available)**: 
+- Since pitch is an essential component of singing technique analysis, we further annotated melodic pitch using [Tony](https://www.sonicvisualiser.org/tony/), followed by manual correction such as removing the unvoiced parts and reverberation tails.
 
 - **Spotify playlist Links**: Because of copyright issue, we don't provide raw audio tracks. Instead, we provide Spotify links of each songs in COSIAN. Here is the Spotify playlist link.
 
