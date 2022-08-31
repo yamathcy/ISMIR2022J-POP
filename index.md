@@ -1,6 +1,6 @@
 # Analysis and detection of singing techniques <br> in repertoires of J-POP solo singers
 
-
+## This page is under construction...
 <!-- You can use the [editor on GitHub](https://github.com/yamathcy/ISMIR2022J-POP/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files. -->
 
 
@@ -10,6 +10,19 @@ Singing techniques in vocal performances are important and have close relationsh
 We provide the some metadata and annotation of the dataset https://yamathcy.github.io/ISMIR2022J-POP/.
 
 ``` -->
+### Abstract of the paper
+
+In this paper, we focus on singing techniques within the scope of music information retrieval research.
+We investigate how singers use singing techniques using real-world recordings of famous solo singers in Japanese popular music songs (J-POP). 
+First, we built a new dataset of singing techniques. 
+The dataset consists of 168 commercial J-POP songs, and each song is annotated using various singing techniques with timestamps and vocal pitch contours.
+We also present descriptive statistics of singing techniques on the dataset to clarify what and how often singing techniques appear.
+We further explored the difficulty of the automatic detection of singing techniques using previously proposed machine learning techniques. 
+In the detection, we also investigate the effectiveness of auxiliary information (i.e., pitch and distribution of label duration), not only providing the baseline. 
+\yy{The best result achieves 40.4\% at macro-average F-measure on nine-way multi-class detection.}
+We provide the annotation of the dataset and its detail on the appendix website{\protect\footnotemark[0]}.
+\footnotetext[0]{\url{https://yamathcy.github.io/ISMIR2022J-POP/}}
+
 
 ### Dataset "COSIAN"
 <div style="text-align: center;">
