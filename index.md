@@ -19,7 +19,7 @@ The dataset consists of 168 commercial J-POP songs, and each song is annotated u
 We also present descriptive statistics of singing techniques on the dataset to clarify what and how often singing techniques appear.
 We further explored the difficulty of the automatic detection of singing techniques using previously proposed machine learning techniques. 
 In the detection, we also investigate the effectiveness of auxiliary information (i.e., pitch and distribution of label duration), not only providing the baseline. 
-\yy{The best result achieves 40.4\% at macro-average F-measure on nine-way multi-class detection.}
+The best result achieves 40.4% at macro-average F-measure on nine-way multi-class detection.
 We provide the annotation of the dataset and its detail on the appendix website (this site) https://yamathcy.github.io/ISMIR2022J-POP/ .
 
 
