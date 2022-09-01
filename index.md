@@ -1,6 +1,5 @@
 # Analysis and detection of singing techniques <br> in repertoires of J-POP solo singers
 
-## This page is under construction...
 <!-- You can use the [editor on GitHub](https://github.com/yamathcy/ISMIR2022J-POP/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files. -->
 
 
@@ -30,11 +29,11 @@ We provide the annotation of the dataset and its detail on the appendix website 
 
 
 #### Description
-We built a new dataset named **COSIAN** to achieve the analysis.
+We built a new dataset named **COSIAN** (a COllection of SInging voice ANnotation) to conduct the analysis.
 COSIAN is an annotation collection of Japanese popular (J-POP) songs, focusing on singing style and expression of famous solo-singers.
 
 It consists of various **168 songs**.
-There are 21 female- and 21 male singers, and each singer's 4 songs to have different mood between these songs each other.
+There are 21 female- and 21 male singers. Each singer has four songs that have different moods from each other.
 
 #### Metadata
 It contains songlist. it contains following information;
@@ -47,23 +46,21 @@ It contains songlist. it contains following information;
 
 - **Pitch (not publicly available)**: Since pitch is an essential component of singing technique analysis, we further annotated melodic pitch using [Tony](https://www.sonicvisualiser.org/tony/), followed by manual correction such as removing the unvoiced parts and reverberation tails.
 
-- **Spotify playlist Links**: Because of copyright issue, we don't provide raw audio tracks. Instead, we provide Spotify links of each songs in COSIAN. Here is the Spotify playlist link.
+- **Spotify Links**: Because of copyright issue, we don't provide raw audio tracks. Instead, we provide Spotify links of each songs in COSIAN.
 
-- **YouTube playlist links**: We also provides YouTube links on the YouTube playlist. Note that this playlist contains only official mv, without alignment information (maybe future work).
+- **YouTube links**: We also provides YouTube links on the YouTube playlist. Note that this playlist contains only official mv, without alignment information (maybe future work).
+
+- **Amazon music links** (work in progress): To purchase the CD, we will also provides Amazon music links.
 
 **We are planning to make more types of annotation within the copyright law.**
 
 **Plan of to do**: beat and tempo, breath timing, vocal activity (presence/silence), vocal effects, onset/offset times, etc... 
 (Lyrics and musical notes will NOT be availlable because they are protected by japanese copyright law.)
 
-
-<!--
+### Annotation procedure
 Under construction...
-### Examples
-#### Female singer
-#### Male singer
 
-  -->
+
 ### Data Statistics 
 - Annotated duration
 <div style="text-align: center;">
