@@ -66,11 +66,49 @@ Under construction...
 ### Data Statistics 
 
 
-### Detection
+
 
   -->
+### Detection examples
+These are the examples automatically detected by Focal-GT model. 
+<div style="text-align: center;">
+    <img src="model.png" width="300px">
+    <img src="stacking.png" width="300px">
+</div>
+
+#### Good examples
+
+- \#1: Sakura / Ikimono gakari
+1:30-1:36
+<iframe width="560" height="315" src="https://www.youtube.com/embed/61z-cqg28R8?start=90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Upper: ground truth label, lower: detected labels
+<div style="text-align: left;">
+    <img src="good_example_2_sakura.png" width="300px">
+</div>
 
 
+- \#2: Omoiga karanaru sono mae ni / Ken Hirai
+- 2:38-2:45
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n2zqrJMuJvM?start=158" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Upper: ground truth label, lower: detected labels
+<div style="text-align: left;">
+    <img src="good_example_1_omoiga.png" width="300px">
+</div>
+
+
+#### Bad examples
+
+We confirmed that one of the common mis-detection cases is from the detection of too short or frequently switching regions.
+- \#1: Readymade / Ado
+- 0:50-0:55
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jg09lNupc1s?start=50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Upper: ground truth label, lower: detected labels
+<div style="text-align: left;">
+    <img src="bad_example_1_readymade.png" width="300px">
+</div>
 
 
 ### Citation 
