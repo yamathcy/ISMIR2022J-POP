@@ -1,5 +1,5 @@
 # Analysis and detection of singing techniques <br> in repertoires of J-POP solo singers
-
+## Yuya Yamamoto, Juhan Nam, Hiroko Terasawa
 <!-- You can use the [editor on GitHub](https://github.com/yamathcy/ISMIR2022J-POP/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files. -->
 
 
@@ -9,6 +9,8 @@ Singing techniques in vocal performances are important and have close relationsh
 We provide the some metadata and annotation of the dataset https://yamathcy.github.io/ISMIR2022J-POP/.
 
 ``` -->
+Paper on ArXiv: https://arxiv.org/abs/2210.17367
+
 ### Abstract of the paper
 
 In this paper, we focus on singing techniques within the scope of music information retrieval research.
@@ -58,7 +60,10 @@ It contains songlist. it contains following information;
 (Lyrics and musical notes will NOT be availlable because they are protected by japanese copyright law.)
 
 ### Annotation procedure
-Under construction...
+We used [Sonic visualiser](https://www.sonicvisualiser.org/), to annotate the singing techniques with both of the help of sound playback and visualizing the spectrograms and pitchgrams.
+<div style="text-align: center;">
+    <img src="annotation_sonic.png" width="600px">
+</div>
 
 
 ### Annotated singing techniques
@@ -72,8 +77,9 @@ Overview
 </div>
 
 #### Examples of each singing technique
-Under construction...
-
+<div style="text-align: center;">
+    <img src="example.png" width="600px">
+</div>
 
 
 ### Data statistics 
@@ -192,6 +198,9 @@ We confirmed that one of the common mis-detection cases is from the detection of
         </tr>
     </tbody>
 </table>
+
+### Contact
+If you have any questions about the paper, please contact the first author Yuya. We also accept issues in [github repository](https://github.com/yamathcy/ISMIR2022J-POP/issues).
 
 ### Citation 
 Cite the ISMIR 2022 paper.
