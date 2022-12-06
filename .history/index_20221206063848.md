@@ -13,7 +13,7 @@ We provide the some metadata and annotation of the dataset https://yamathcy.gith
 
 ### Abstract of the paper
 
-In this paper, we focus on singing techniques within the scope of music information retrieval research.
+```In this paper, we focus on singing techniques within the scope of music information retrieval research.
 We investigate how singers use singing techniques using real-world recordings of famous solo singers in Japanese popular music songs (J-POP). 
 First, we built a new dataset of singing techniques. 
 The dataset consists of 168 commercial J-POP songs, and each song is annotated using various singing techniques with timestamps and vocal pitch contours.
@@ -22,7 +22,8 @@ We further explored the difficulty of the automatic detection of singing techniq
 In the detection, we also investigate the effectiveness of auxiliary information (i.e., pitch and distribution of label duration), not only providing the baseline. 
 The best result achieves 40.4% at macro-average F-measure on nine-way multi-class detection.
 We provide the annotation of the dataset and its detail on the appendix website (this site). https://yamathcy.github.io/ISMIR2022J-POP/ 
-
+```
+   
 
 ### Dataset "COSIAN"
 <div style="text-align: center;">
@@ -37,6 +38,13 @@ COSIAN is an annotation collection of Japanese popular (J-POP) songs, focusing o
 It consists of various **168 songs**.
 There are 21 female- and 21 male singers. Each singer has four songs that have different moods from each other.
 
+### What is the motivation?
+**Understanding the singing voice more**
+
+The basic concept of the work is **analyzing the singers' characteristics by clarification of how they render the song**.
+One of the naive ways to realize it is annotating the presence of **singing techniques**, which are produced by fluctuating the pitch, timbre, etc. 
+However, there are no such datasets, so we decided to build it.
+
 #### Metadata
 It contains songlist. it contains following information;
 <iframe width="1000" height="500" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRAkgcnUAJkbBLqnpvs2qk9uAdqkVyjygsI7wvrBC4zrpKhc_lVTIR0xTm5Yk6I-aFt1O5DQqxVITj1/pubhtml?gid=1530300283&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
@@ -44,7 +52,7 @@ It contains songlist. it contains following information;
 #### Annotations
 <img src="example_homura.png" width="600px">
 
-- **Singing techniques**: Overlapping strong labeled annotation (i.e. kinds and timestamps) of singing techniques. 
+- **Singing techniques**: Overlapping strong labeled annotation (i.e. kinds and timestamps) of singing techniques. -> If you want the annotation files, access [here](https://drive.google.com/file/d/1o4TTd7Xeog5oVBiVuolckQM1vg0Z0Ldd/view?usp=share_link) and request a permission. 
 
 - **Pitch (not publicly available)**: Since pitch is an essential component of singing technique analysis, we further annotated melodic pitch using [Tony](https://www.sonicvisualiser.org/tony/), followed by manual correction such as removing the unvoiced parts and reverberation tails.
 
@@ -59,8 +67,7 @@ It contains songlist. it contains following information;
 
 **We are planning to make more types of annotation within the copyright law.**
 
-**Plan of to do**: beat and tempo, breath timing, vocal activity (presence/silence), vocal effects, onset/offset times, etc... 
-(Lyrics and musical notes will NOT be availlable because they are protected by japanese copyright law.)
+**The administrator may update these conditions of use at any time.**
 
 ### Annotation procedure
 We used [Sonic visualiser](https://www.sonicvisualiser.org/), to annotate the singing techniques with both of the help of sound playback and visualizing the spectrograms and pitchgrams.
@@ -210,7 +217,7 @@ Cite the ISMIR 2022 paper.
 ```
 @inproceedings{yamamoto2022analysis,
          author = {Yamamoto, Yuya and Nam, Juhan and Terasawa, Hiroko},
-         title = {Analysis and Detection of Singing Techniques in repertoire of J-POP solo singers},
+         title = {Analysis and Detection of Singing Techniques in Repertoires of J-POP solo singers},
          booktitle = {Proceedings of the 23rd International Society for Music Information Retrieval Conference (ISMIR)},
          year = {2022}
 }
