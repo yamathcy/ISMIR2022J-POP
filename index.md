@@ -13,7 +13,7 @@ We provide the some metadata and annotation of the dataset https://yamathcy.gith
 
 ### Abstract of the paper
 
-```In this paper, we focus on singing techniques within the scope of music information retrieval research.
+In this paper, we focus on singing techniques within the scope of music information retrieval research.
 We investigate how singers use singing techniques using real-world recordings of famous solo singers in Japanese popular music songs (J-POP). 
 First, we built a new dataset of singing techniques. 
 The dataset consists of 168 commercial J-POP songs, and each song is annotated using various singing techniques with timestamps and vocal pitch contours.
@@ -22,7 +22,7 @@ We further explored the difficulty of the automatic detection of singing techniq
 In the detection, we also investigate the effectiveness of auxiliary information (i.e., pitch and distribution of label duration), not only providing the baseline. 
 The best result achieves 40.4% at macro-average F-measure on nine-way multi-class detection.
 We provide the annotation of the dataset and its detail on the appendix website (this site). https://yamathcy.github.io/ISMIR2022J-POP/ 
-```
+
    
 
 ### Dataset "COSIAN"
