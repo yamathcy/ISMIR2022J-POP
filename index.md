@@ -10,7 +10,7 @@ We provide the some metadata and annotation of the dataset https://yamathcy.gith
 
 ``` -->
 [Paper on ArXiv](https://arxiv.org/abs/2210.17367)
-
+[Conference page](https://ismir2022program.ismir.net/poster_296.html)
 ### Abstract of the paper
 
 In this paper, we focus on singing techniques within the scope of music information retrieval research.
