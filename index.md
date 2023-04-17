@@ -52,7 +52,9 @@ It contains songlist. it contains following information;
 #### Annotations
 <img src="thumnail_296_yamamoto.png" width="600px">
 
-- **Singing techniques**: Overlapping strong labeled annotation (i.e. kinds and timestamps) of singing techniques. -> If you want the annotation files, access [here](https://drive.google.com/file/d/1o4TTd7Xeog5oVBiVuolckQM1vg0Z0Ldd/view?usp=share_link) and request a permission. 
+- **Singing techniques**: Overlapping strong labeled annotation (i.e. kinds and timestamps) of singing techniques.
+<p style="color:red;"><b>(CAUTION) Audio files are not contained below!!</b></p>
+ -> If you want the annotation files, access [here](https://drive.google.com/file/d/1o4TTd7Xeog5oVBiVuolckQM1vg0Z0Ldd/view?usp=share_link) and request a permission. 
 
 - **Pitch (not publicly available)**: Since pitch is an essential component of singing technique analysis, we further annotated melodic pitch using [Tony](https://www.sonicvisualiser.org/tony/), followed by manual correction such as removing the unvoiced parts and reverberation tails.
 

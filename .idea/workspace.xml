@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bd2b072-87f9-44ea-9b1e-e7fdba26598a" name="Default Changelist" comment="change">
-      <change beforePath="$PROJECT_DIR$/example_homura.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,7 @@
       <updated>1667794429486</updated>
       <workItem from="1667794430570" duration="587000" />
       <workItem from="1669043254056" duration="17000" />
+      <workItem from="1681708521260" duration="170000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1667794447095</created>
