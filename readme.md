@@ -77,8 +77,8 @@ We attempted the detection task.
 https://yamathcy.github.io/ISMIR2022J-POP/
 
 
-#### 2. to be appeared...
-
+#### 2. Improved DNN architecture of singing technique detection (EUSIPCO 2023)
+TBA 
 
 
 ---
@@ -89,6 +89,14 @@ https://yamathcy.github.io/ISMIR2022J-POP/
          title = {Analysis and Detection of Singing Techniques in Repertoires of J-POP Solo Singers},
          booktitle = {Proceedings of The 23rd International Society for Music Information Retrieval Conference (ISMIR)},
          year = {2022}
+}
+```
+```
+@inproceedings{yamamoto2023primadnn,
+         author = {Yamamoto, Yuya and Nam, Juhan and Terasawa, Hiroko},
+         title = {PrimaDNN': A Characteristics-aware DNN Customization for Singing Technique Detection},
+         booktitle = {Proceedings of The 31st European conference on signal processing (EUSIPCO)},
+         year = {2023}
 }
 ```
 
