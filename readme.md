@@ -95,7 +95,7 @@ TBA
 @inproceedings{yamamoto2023primadnn,
          author = {Yamamoto, Yuya and Nam, Juhan and Terasawa, Hiroko},
          title = {PrimaDNN': A Characteristics-aware DNN Customization for Singing Technique Detection},
-         booktitle = {Proceedings of The 31st European conference on signal processing (EUSIPCO)},
+         booktitle = {Proceedings of The 31st European Signal Processing Conference (EUSIPCO)},
          year = {2023}
 }
 ```
