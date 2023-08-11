@@ -78,7 +78,7 @@ https://yamathcy.github.io/ISMIR2022J-POP/
 
 
 #### 2. Improved DNN architecture of singing technique detection (EUSIPCO 2023)
-https://yamathcy.github.io/ISMIR2022J-POP/eusipco23primadnn
+https://yamathcy.github.io/eusipco23primadnn/
 
 
 ---
