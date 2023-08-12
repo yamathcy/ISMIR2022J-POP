@@ -68,6 +68,8 @@ It contains songlist. it contains following information;
 
 - **Amazon music links** (work in progress): We will also provides Amazon music links for you to purchase CD recordings, which we actually used in the task.
 
+- **Apple music links** : In addition to Amazon music, we also provide Apple music links. When purchasing each music track via Apple music, please purchase them from the "apple music links" column in the spreadsheet.
+
 **We are planning to make more types of annotation within the copyright law.**
 
 **The administrator may update these conditions of use at any time.**
