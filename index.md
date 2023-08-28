@@ -56,6 +56,16 @@ It contains songlist. it contains following information;
 <p style="color:red;"><b>(CAUTION) Audio files are not contained below!!</b></p>
  
 -> If you want the annotation files, access [here](https://drive.google.com/file/d/1o4TTd7Xeog5oVBiVuolckQM1vg0Z0Ldd/view?usp=share_link) and request a permission. 
+The annotation is research purpose only.
+
+The request should include the following. Otherwise it will be rejected.
+  - Name
+  - Affiliation
+  - Email Address
+  - Agree to the [License](#license)
+
+
+<br>
 
 - **Pitch (not publicly available)**: Since pitch is an essential component of singing technique analysis, we further annotated melodic pitch using [Tony](https://www.sonicvisualiser.org/tony/), followed by manual correction such as removing the unvoiced parts and reverberation tails.
 
@@ -70,9 +80,6 @@ It contains songlist. it contains following information;
 
 - **Apple music links** : In addition to Amazon music, we also provide Apple music links. When purchasing each music track via Apple music, please purchase them from the "apple_music" column in the spreadsheet.
 
-**We are planning to make more types of annotation within the copyright law.**
-
-**The administrator may update these conditions of use at any time.**
 
 ### Annotation procedure
 We used [Sonic visualiser](https://www.sonicvisualiser.org/), to annotate the singing techniques with both of the help of sound playback and visualizing the spectrograms and pitchgrams.
@@ -217,7 +224,17 @@ We confirmed that one of the common mis-detection cases is from the detection of
 ### Contact
 If you have any questions about the paper, please contact the first author Yuya. We also accept issues in [github repository](https://github.com/yamathcy/ISMIR2022J-POP/issues).
 
-If you discover or want to suggest of correction of mis-labeled annontation samples, please inform at issue or pull request.
+<a id="license"></a>
+### License
+The COSIAN contains copyright material.
+We share COSIAN with researchers under the following conditions:
+
+- COSIAN may only be used by the individual signing below and by members of the research group or organisation of this individual. This permission is not transferable.
+- COSIAN may be used only for non-commercial research purposes.
+- COSIAN (or data enabling the its reproduction) may not be sold, leased, published or distributed to any third party without written permission from the COSIAN administrator.
+
+University of Tsukuba and KAIST shall not be held liable for any errors in the content of COSIAN nor damage arising from the use of COSIAN.
+The COSIAN administrator may update these conditions of use at any time.
 
 ### Citation 
 Cite the ISMIR 2022 paper.
